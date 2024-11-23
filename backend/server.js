@@ -21,4 +21,4 @@ mongoose
     console.log("error", error);
 })
 
-app.use("/api/user", userRoute)
+app.use(userRoute)
